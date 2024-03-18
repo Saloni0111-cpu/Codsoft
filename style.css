@@ -5,6 +5,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(47, 32, 32);
+    color:#fefefe
     
 }
 
@@ -322,19 +324,150 @@ h3 {
     font-weight: bold;
 }
 
-#nihon-container{
-    position: relative;
-    height: 10px;
-    width: 20px;
-    margin: auto 0;
-}
-.icon-1{
-    height:1px;
-    width: 10px;
-    border-radius: 30px;
+h4{
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    background: rgb(106, 95, 95);
+    margin-top: 3px;
+    margin-left: 5px;
     
 }
 
+.skills-icon{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 530px;
+    background: rgb(16, 8, 8);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.nihon-container{
+    height: 300px;
+    width: 200px;
+    border: 0.5px solid white;
+    background: rgb(106, 95, 95);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    padding: 16px;
+}
+.nihon-container:hover {
+    box-shadow:rgb(255, 137, 137) ;
+    border-color: rgb(40, 66, 66);
+    
+}
+.languages{
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    border: 0.5px solid white;
+    background: rgb(106, 95, 95);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    padding: 16px;
+}
+
+.languages:hover {
+    box-shadow:rgb(255, 137, 137) ;
+    border-color: rgb(40, 66, 66);
+    
+}
+
+.front{
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    border: 0.5px solid white;
+    background: rgb(106, 95, 95);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    padding: 16px;
+}
+
+.front:hover {
+    box-shadow:rgb(255, 137, 137) ;
+    border-color: rgb(40, 66, 66);
+    
+}
+
+
+.back{
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    border: 0.5px solid white;
+    background: rgb(106, 95, 95);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    
+}
+
+.back:hover {
+    box-shadow:rgb(255, 137, 137) ;
+    border-color: rgb(40, 66, 66);
+    
+}
+
+.icon{
+    border-radius: 2rem;
+    width: 10%;
+    height: 10%;
+}
+
+.icon-1{
+    border-radius: 2rem;
+    width: 30%;
+    height: 60%;
+}
+
+.icon2{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+    position: relative;
+    display: block;
+    justify-content: initial;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    gap:2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.icon2:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(52, 26, 19, 0.7);
+}
+
+.icon2-1{
+    height: 70px;
+    width: 150px;
+    display: inline;
+    background-color: #fefefe;
+    border-radius: 30%;
+    position: relative;
+    display: block;
+    justify-content: initial;   
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    
+}
+.icon2-1:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(52, 26, 19, 0.7);
+}
 
 
 
@@ -398,9 +531,9 @@ h3 {
 
 }
 
-.contact-icoon{
+.contact-icon{
     cursor:default;
-    height: 10rem ;
+    height: 2rem ;
 }
 
 /*footer*/
