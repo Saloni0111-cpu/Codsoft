@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(47, 32, 32);
+    background-color:  #14131A;
     color:#fefefe;
     
 }
@@ -19,7 +19,7 @@ html{
 }
 
 p{
-    color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
 }
 
 /*transition*/
@@ -28,26 +28,43 @@ a, .btn{
 }
 
 /*Nav*/
-.nav-links{
-    display: flex;
-    justify-content: end;
-    margin-right: 1.5rem;
-    margin-top: 3rem ;
+
+.navigation{
+    height: 100px;
+    width: 700px;
+    background: #1c1b23;
+    margin-top: 1.5rem;
+    
 }
-nav{
-    display: flex;
-    justify-content: space-evenly;
+
+#desktop-nav{
+    background: #1c1b23;
 }
 .nav-links{
     gap: 3rem;
     list-style: none;
+    display: flex;
     font-size: 1.5rem;
+    justify-content: end;
+    padding-top: 30px;
+    
+    background:#1c1b23;
+    
 }
 
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background: #1c1b23;
+}
+
+
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
     text-decoration: none;
     text-decoration-color: white;
+    background: #1c1b23;
+    padding:3px;
 }
 a:hover{
     color: grey;
@@ -59,16 +76,35 @@ a:hover{
 
 .logo{
     font-size: 3rem;
-    color:rgb(0, 0, 0) ;
+    color:rgb(255, 254, 254) ;
     display: flex;
     margin-right: 7rem;
     margin-top: 1.5rem ;
+    background: #1c1b23
     
-   
+
 }
 .logo:hover{
     cursor: default;
 }
+
+.s{
+    cursor: pointer;
+    height: 1rem;
+    width:0.2rem;
+    background: #ffffff;
+    color: #1c1b23;
+    padding:2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
 
 /*Hamburger-nav*/
 
@@ -164,38 +200,61 @@ section{
     display: flex;
     justify-content: center;
     gap:5rem;
-    height:80vh;
+    height:90vh;
     
 }
 
-
-.section__pic-container{
-    display: flex;
+.dp{
     height:400px;
     width:400px;
-    margin:auto 0;
+    margin-left: 1200px;
+    border-radius: 50%;
+    border: 2px solid rgb(251, 251, 255);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.1), inset 0 0 20px rgba(254, 254, 254, 0.5);
 }
+
+
 
 .section__text{
+    height: 300px;
+    width: 600px;
     align-self: center;
     text-align: center;
+    padding:30px;
+    margin-right: 1200px;
+    background: #1c1b23;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    animation: glow 2s infinite alternate;
 }
 
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px 0 rgba(142, 142, 158, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 10px 10px rgba(171, 171, 182, 0.5); /* Increase the blur and spread radius */
+    }
+}
 .sectin__text p{
     font-weight: 600;
 }
 
 .section__text__p1{
     text-align: center;
+    background: #1c1b23;
 }
 .section__text__p2{
     font-size: 1rem;
     margin-bottom: 1rem;
+    background: #1c1b23;
 }
 
 .title{
     font-size: 3rem;
     text-align: center;
+    background: #1c1b23;
 }
 
 #socials-container{
@@ -203,6 +262,8 @@ section{
     justify-content:center ;
     margin-top:1rem;
     gap:1rem;
+    background: #1c1b23;
+    
 }
 
 /*icons*/
@@ -210,10 +271,18 @@ section{
 .icon{
     cursor: pointer;
     height: 2rem;
+    background: #ffffff;
+    color: #1c1b23;
+    padding:2px ;
 }
 
 /*buttons*/
 
+#socials-contact{
+    background: #1c1b23;
+    color: white;
+    padding: 10px;
+}
 .btn-container{
     display: flex;
     justify-content: center;
@@ -228,25 +297,30 @@ section{
     border-radius: 2rem;
 }
 
-.btn-color-1,
+.btn-color-1{
+    border:rgb(81, 79, 79) 0,1rem solid;
+}
 .btn-color-2{
-    border:rgb(53, 53, 53) 0,1rem solid;
+    border:rgb(81, 79, 79) 0,1rem solid;
 }
 
-.btn-color-1:hover,
+.btn-color-1:hover{
+    cursor:pointer;
+}
 .btn-color-2:hover{
     cursor:pointer;
 }
 
-.btn-color-1,
+.btn-color-1:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+    }
 .btn-color-2:hover{
 background: rgb(53, 53, 53);
 color: white;
 }
 
-.btn--color-1:hover{
-    background: black;
-}
+
 
 .btn-color-2{
 background: none;
@@ -258,6 +332,7 @@ background: none;
 
 .btn-container{
     gap:1rem;
+    background: #1c1b23;
 }
 
 /*About*/
@@ -352,11 +427,11 @@ h4{
     border: 0.5px solid white;
     background: rgb(106, 95, 95);
     border-radius: 20px;
-    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 40px rgba(19, 18, 18, 0.7), inset 0 0 20px rgba(255, 255, 255, 0.5);
     padding: 16px;
 }
 .nihon-container:hover {
-    box-shadow:rgb(255, 137, 137) ;
+    box-shadow:rgb(32, 32, 32) ;
     border-color: rgb(40, 66, 66);
     
 }
@@ -367,7 +442,7 @@ h4{
     border: 0.5px solid white;
     background: rgb(106, 95, 95);
     border-radius: 20px;
-    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 40px rgba(19, 18, 18, 0.7), inset 0 0 20px rgba(255, 255, 255, 0.5);
     padding: 16px;
 }
 
@@ -384,7 +459,7 @@ h4{
     border: 0.5px solid white;
     background: rgb(106, 95, 95);
     border-radius: 20px;
-    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 40px rgba(19, 18, 18, 0.7), inset 0 0 20px rgba(255, 255, 255, 0.5);
     padding: 16px;
 }
 
@@ -402,7 +477,7 @@ h4{
     border: 0.5px solid white;
     background: rgb(106, 95, 95);
     border-radius: 20px;
-    box-shadow: 0 0 40px rgba(95, 53, 53, 0.1), inset 0 0 20px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 40px rgba(19, 18, 18, 0.7), inset 0 0 20px rgba(255, 255, 255, 0.5);
     padding: 16px;
     
 }
@@ -444,7 +519,7 @@ h4{
 
 .icon2:hover {
     transform: scale(1.2);
-    box-shadow: 0 0 20px rgba(52, 26, 19, 0.7);
+    box-shadow: 0 0 20px rgba(19, 18, 18, 0.7);
 }
 
 .icon2-1{
@@ -466,7 +541,7 @@ h4{
 }
 .icon2-1:hover {
     transform: scale(1.2);
-    box-shadow: 0 0 20px rgba(52, 26, 19, 0.7);
+    box-shadow: 0 0 20px rgba(19, 18, 18, 0.7);
 }
 
 
