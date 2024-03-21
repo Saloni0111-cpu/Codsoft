@@ -369,6 +369,7 @@ background: #14131A;
     
 }
 .about-pic{
+    margin-top:30px;
     border-radius: 2rem;
     height:300px;
     width:300px;
@@ -695,7 +696,7 @@ h4{
 .contact-info-upper-container{
     height: 180px;
     width: 300px;
-    background: #14131a;
+    background: #1c1b23;
     border: 1px solid grey;
     margin-top:2rem;
     border-radius:20px ;
@@ -709,7 +710,7 @@ h4{
     display:flex;
     align-items: center;
     height: 40px;
-    background-color: #14131a;
+    background-color: #1c1b23;
     
 }
 .contact-info-container:hover{
@@ -720,7 +721,7 @@ h4{
 
 .contact-info-container p{
     font-size: medium;
-    background-color: #14131a;
+    background-color: #1c1b23;
 
 }
 .contact-info-container p:hover{
@@ -729,7 +730,7 @@ h4{
 }
 .contact-info-container a{
     font-size: large;
-    background-color: #14131a;
+    background-color: #1c1b23;
 
 }
 .contact-info-container a:hover{
@@ -740,7 +741,7 @@ h4{
 .contact-icon{
     cursor:default;
     height: 2rem ;
-    background-color: #14131a;
+    background-color: #1c1b23;
 }
 .contact-icon:hover{
     transform: translateY(-3px);
@@ -754,8 +755,8 @@ h4{
     width:1519px;
     height:10vh;
     margin: 0rem;
-    color:white;
-    background-color: #ffffff;
+    color:#14131a;
+    background-color: #14131a;
     
 
 
@@ -768,14 +769,14 @@ h4{
     font-size: 1.5rem;
     justify-content: end;
     padding-top: 3px;
-    background:#ffffff;
+    background:#14131a;
     color: white;
     
 }
 
 .nav-linksfooter a{
-    background: #ffffff;
-    color:black;
+    background: #14131a;
+    color:rgb(255, 255, 255);
 }
 .nav-links-containerfooter{
     gap: 3rem;
@@ -783,18 +784,18 @@ h4{
     display: flex;
     font-size: 1.5rem;
     justify-content: end;
-    padding-top: 3px;
+    padding-top: 5px;
     padding-bottom: 3px;
-    background:#ffffff;
+    background:#14131a;
     margin: 3px;
     
 }
 .navfooter{
-    background:#ffffff;
+    background:#14131a;
 }
 footer p{
     text-align: center;
     margin-top: 2rem;
-    background: #ffffff;
-    color:#14131A;
+    background:#14131a;
+    color:#ffffff;
 }
