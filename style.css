@@ -17,6 +17,8 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -50,7 +52,7 @@ a, .btn{
     display: flex;
     font-size: 1.5rem;
     justify-content: end;
-    padding-top: 30px;
+    padding-top: 60px;
     background:#1c1b23;
     
 }
@@ -238,7 +240,7 @@ section{
         box-shadow: 0 0 10px 0 rgba(142, 142, 158, 0.5);
     }
     100% {
-        box-shadow: 0 0 10px 10px rgba(171, 171, 182, 0.5); /* Increase the blur and spread radius */
+        box-shadow: 0 0 10px 10px rgba(171, 171, 182, 0.5); 
     }
 }
 .sectin__text p{
@@ -353,7 +355,7 @@ background: #14131A;
 }
 .about-containers{
     gap:2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-top: 2rem;
 }
 
@@ -383,6 +385,10 @@ background: #14131A;
     bottom: 2.5rem;
     border-radius: 2rem;
     height: 50px;
+}
+.icon-arrow:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .details{
@@ -607,21 +613,15 @@ h4{
 
 /*Projects*/
 
+
 #projects{
     position: relative;
     display: flex;
     justify-content: space-evenly;
+    align-items:center ;
 
 }
-.procontainer{
-    margin-top: 6rem;
-    border-radius: 2rem;
-    height:30px;
-    width:30px;
-    border-radius: 30%;
-    border: 2px solid rgb(251, 251, 255);
-    box-shadow: 0 0 40px rgba(255, 255, 255, 0.1), inset 0 0 20px rgba(254, 254, 254, 0.5);
-}
+
 
 .propic1{
     border-radius: 2rem;
@@ -647,7 +647,7 @@ h4{
 .pro-container{
     margin-top:3rem;
     margin-left: 0.5rem;
-    height: 330px;
+    height: 350px;
     width: 250px;
     border: 0.05px solid grey;
     padding:1rem 5rem 0rem 2rem ;
@@ -664,8 +664,9 @@ h4{
     padding:3px ;
     border-radius: 5px;
     margin-bottom: 0.5rem;
-    animation: glow 2s infinite alternate;
+    animation: glow 1s infinite alternate;
 }
+
 
 
 @keyframes glow {
@@ -673,7 +674,7 @@ h4{
         box-shadow: 0 0 5px 0 rgba(142, 142, 158, 0.5);
     }
     100% {
-        box-shadow: 0 0 5px 5px rgba(171, 171, 182, 0.5); /* Increase the blur and spread radius */
+        box-shadow: 0 0 5px 5px rgba(171, 171, 182, 0.5); 
     }
 }
 
@@ -690,7 +691,17 @@ h4{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vb;
+    height: 90vb;
+}
+
+.contactbar{
+    width: 1200px;
+    height: 100px;
+    margin-bottom: 40rem;;
+    padding-bottom:1.5rem;
+    background: #1c1b23;
+    padding-top: 0.5rem;
+    border-radius: 20px;
 }
 
 .contact-info-upper-container{
@@ -698,10 +709,10 @@ h4{
     width: 300px;
     background: #1c1b23;
     border: 1px solid grey;
-    margin-top:2rem;
+    margin-top:4rem;
     border-radius:20px ;
     padding:1.5rem;
-    margin-left: 5rem;
+    margin-left: 25rem;
     padding-top:2rem;
 
 
