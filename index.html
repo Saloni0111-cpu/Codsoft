@@ -15,7 +15,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li> 
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a class="resume"onclick="window.open('./assets/Resume.pdf')">Resume</a></li>
                 <li><a href="#contact">contact</a></li>    
             </ul>
         </div>
@@ -36,7 +36,7 @@
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#skills" onclick="toggleMenu()" >Skills</a></li> 
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+                <li><a class="resume" onclick="window.open('./assets/Resume.pdf')">Resume</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">contact</a></li>    
             </div>
         </div>
@@ -52,7 +52,7 @@
             <h1 class="title">Saloni Zade</h1>
             <p class="section__text__p2">Web Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./add your resume path here')">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">
                     Download CV</button>
                     <button class="btn btn-color-1" onclick="location.href-'./#contact'">
                         Contact Info </button>
@@ -110,11 +110,10 @@
     
     <section id="skills">
             <div class="me">
-            <p class="section__text__p1">Get to know</p>
-        <h1 class="title">My Skills</h1>
-        </div>
+                <p class="section__text__p1">Get to know</p>
+                <h1 class="title">My Skills</h1>
+            </div>
         <div class="skills-icon">
-            
             <div class="nihon-container">
                 <h4>Basic Proficiency in Japanese Language</h4>
                 <img src="./assets/nihongo.jpg" alt="My Language profeciency " 
@@ -141,27 +140,23 @@
             <img src="./assets/node-js-icon.avif" alt="Frameworks" 
             class="icon2">
         </div>
-        
         </div>
-        
+        <div class="arrowicon">
+        <img src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="iconarrow2" onclick="location.href='./#projects'">
+        </div>
     </section>
-    </div>
     
-    </section>
     
-
+    
     <section id="projects">
-    <section id="about">
-        <div class="me">
-            
+        <div class="probar"> 
         <p class="section__text__p1">Browse my </p>
         <h1 class="title">Projects</h1>
     </div>
-        
         <div class="section-container">
-        
-        
-            <div class="about-containers">
+            <div class="project-container">
                 <div class="pro-container">
                     <img src="./assets/netflix.jpeg"
                     alt="Experience icon"
@@ -170,7 +165,6 @@
                     <a  href='https://www.linkedin.com/in/tejas-agarkar-82900a250/?originalSubdomain=in'>
                         <p>Tejas Agarkar</p>
                     </a>
-                    
                 </div>
                 <div class="pro-container">
                     <img src="./assets/amazon.png"
@@ -178,20 +172,20 @@
                     class="icon5">
                     <p>Recenty cloned<br />Amazon.com </p>
                 </div>
-                
-                        <div class="pro-container">
-                            <img src="./assets/calc.jpg"
-                            alt="Experience icon"
-                            class="icon5">
-                            <p>A simple calc using HTML, CSS, JS </p>
-            </div>
-            
+                    <div class="pro-container">
+                        <img src="./assets/calc.jpg"
+                        alt="Experience icon"
+                        class="icon5">
+                    <p>A simple calc using HTML, CSS, JS </p>
+            </div> 
+            <div class="arrowicon">
+                <img src="./assets/arrow.png"
+                        alt="Arrow icon"
+                        class="iconarrow3" onclick="location.href='./#contact'">
         </div>
     </div>
-    <img src="./assets/arrow.png"
-    alt="Arrow icon"
-    class="icon-arrow" onclick="location.href='./#contact'">
-    </section>
+
+</div>      
 </section>
 
 
@@ -245,18 +239,19 @@
     </section>
 
     <footer>
+        
         <nav class="navfooter">
             <div class="nav-links-containerfooter">
                 <ul class="nav-linksfooter">
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li> 
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
+                    <li><a class="resume" onclick="window.open('./assets/Resume.pdf')">Resume</a></li>
                     <li><a href="#contact">contact</a></li>    
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2024 Saloni Zade, All Rights Reserved</p>
+        <p class="footerp">Copyright &#169; 2024 Saloni Zade, All Rights Reserved</p>
     </footer>
     <script src="script.js"></script>
 </body>
